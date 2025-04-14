@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Freckle+Face&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&display=swap');
 
 .image {
-    background-image: url(/Imagens/background_image.jpg);
+    background-image: url(../Imagens/background_image.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 50px;
