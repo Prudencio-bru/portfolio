@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Freckle+Face&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+
+.skills-page {
+    background-color: rgb(16, 15, 15);
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 110px 130px;
+    text-align: center;
+    height: 652px;
+}
+
+.skills-page h2 {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 100px;
+    color: rgb(218, 23, 111);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20%;
+    max-width: 1200px;
+    margin: 0, auto;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill label {
+    flex: 1;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.progress-bar {
+    flex: 2;
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 25px;
+    position: relative;
+}
+
+.progress {
+    background-color: rgb(218, 23, 111);
+    height: 100%;
+    transition: widht 0.5s ease;
+}
+
+.perccentage {
+    flex: 0.5;
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
