@@ -8,6 +8,9 @@
     background-size: cover;
     background-position: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 219vh;
     height: 100vh;
 }
@@ -18,7 +21,7 @@
     font-size: 7vh;
     display: flex;
     justify-content: center;
-    padding-top: 47vh;
+    padding-top: 17vh;
 }
 
 .image h2 {
