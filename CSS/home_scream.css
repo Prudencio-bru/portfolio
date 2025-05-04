@@ -7,49 +7,40 @@
     background-image: url("../Imagens/background_image.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
     color: white;
     width: 219vh;
-    height: 652px;
-    border: none;
-    margin-right: 0;
+    height: 100vh;
 }
 
 .image h1 {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 7vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 350px;
-    padding-bottom: 0;
+    padding-top: 47vh;
 }
 
 .image h2 {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 4vh;
     display: flex;
     justify-content: center;
-    margin-top: -33px;
+    margin-top: -5vh;
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 22vh;
+    height: 22vh;
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid white;
+    border: 1vh solid white;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.2);
 }
 
 .profile-photo img {
